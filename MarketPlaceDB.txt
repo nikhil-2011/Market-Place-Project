@@ -6,7 +6,7 @@ create table Users(
 userid char(5) primary key,
 username varchar(20),
 userpassword varchar(20),
-contact int);
+contact bigint);
 
 create table Categories(
 catid char(5) primary key,
