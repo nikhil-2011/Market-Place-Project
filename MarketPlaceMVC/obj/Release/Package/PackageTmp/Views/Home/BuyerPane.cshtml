@@ -11,8 +11,12 @@
 </script>
 <h2>Buyer Pane</h2>
 <p style="font-size:medium">
- 
-    @Html.ActionLink("Home", "LoginPage") 
+    @Html.ActionLink("Home", "LoginPage") |
+
+    @Html.ActionLink("My Cart", "MyCart") |
+    @Html.ActionLink("My Orders", "ViewOrder") 
+
+    
   
 </p>
 <table class="table">
@@ -59,7 +63,7 @@
             @Html.DisplayFor(modelItem => item.seller)
         </td>
         <td>
-            @Html.ActionLink("Buy", "BuyItem",item)
+            @Html.ActionLink("Add to Cart", "AddToCart",item)
         </td>
        
     </tr>

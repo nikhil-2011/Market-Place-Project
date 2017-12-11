@@ -8,3 +8,13 @@ F:\Visual Studio\MarketPlace\MarketPlaceDAL\bin\Debug\EntityFramework.SqlServer.
 F:\Visual Studio\MarketPlace\MarketPlaceDAL\obj\Debug\MarketPlaceDAL.csprojResolveAssemblyReference.cache
 F:\Visual Studio\MarketPlace\MarketPlaceDAL\obj\Debug\MarketPlaceDAL.dll
 F:\Visual Studio\MarketPlace\MarketPlaceDAL\obj\Debug\MarketPlaceDAL.pdb
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\bin\Debug\MarketPlaceDAL.dll.config
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\bin\Debug\MarketPlaceDAL.dll
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\bin\Debug\MarketPlaceDAL.pdb
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\bin\Debug\EntityFramework.dll
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\bin\Debug\EntityFramework.xml
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\obj\Debug\MarketPlaceDAL.csprojResolveAssemblyReference.cache
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\obj\Debug\MarketPlaceDAL.dll
+C:\Users\nikhil.anand01\Downloads\Market-Place-Project-master\Market-Place-Project-master\MarketPlaceDAL\obj\Debug\MarketPlaceDAL.pdb

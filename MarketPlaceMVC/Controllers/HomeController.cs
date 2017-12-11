@@ -156,7 +156,7 @@ namespace MarketPlaceMVC.Controllers
             }
             else
             {
-                return View("Error");
+                return View("ErrorSignUp");
             }
         }
 

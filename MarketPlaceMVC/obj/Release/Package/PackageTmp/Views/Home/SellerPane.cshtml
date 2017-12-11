@@ -4,7 +4,7 @@
     ViewBag.Title = "SellerPane";
 }
 
-<h2>SellerPane</h2>
+<h2>Seller Pane</h2>
 <script>
         history.pushState(null, null, document.title);
         window.addEventListener('popstate', function () {
@@ -12,8 +12,9 @@
         });
 </script>
 <p style="font-size:medium">
-    @Html.ActionLink("Add New", "AddItem") |
     @Html.ActionLink("Home", "LoginPage") |
+    @Html.ActionLink("Add Catalog", "AddItem") |
+    
     @Html.ActionLink("Categories", "CategoryIndex")
 </p>
 <table class="table">
@@ -54,7 +55,12 @@
         <td>
             @Html.DisplayFor(modelItem => item.catname)
         </td>
-       
+        <td>
+            @Html.HiddenFor(modelItem=>item.itemid)
+        </td>
+       <td>
+           @Html.ActionLink("Edit", "EditItem", item)
+       </td>
        
     </tr>
 }

@@ -180,7 +180,7 @@ namespace MarketPlaceDAL
 
                     u.username = username;
                     u.userpassword = password;
-                    u.contact = Convert.ToInt32(contact);
+                    u.contact = Convert.ToInt64(contact);
                     context.Users.Add(u);
                     context.SaveChanges();
                     return 1;
@@ -329,10 +329,10 @@ namespace MarketPlaceDAL
                 {
                     var i = (from c in context.Carts where c.itemid == item.itemid select c).FirstOrDefault();
                     ReduceQuantity(item.itemid, item.quantity);
-                    context.Carts.Remove(i);
+                    
                 }
 
-
+                RemoveCartItems(userid,cartList);
 
                 context.SaveChanges();
                 return 0;
@@ -405,6 +405,16 @@ namespace MarketPlaceDAL
         {
             var res = (from c in context.Carts where c.userid == userid select c).ToList();
             return res;
+        }
+
+        public void RemoveCartItems(string userid,List<Cart> ls)
+        {
+            foreach (var item in ls)
+            {
+                var res = (from c in context.Carts where c.userid == userid && c.itemid == item.itemid select c).FirstOrDefault();
+                context.Carts.Remove(res);
+            }
+            context.SaveChanges();
         }
     }
 }

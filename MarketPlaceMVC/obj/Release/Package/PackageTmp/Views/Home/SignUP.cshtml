@@ -20,28 +20,33 @@
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
-            @Html.LabelFor(model => model.username, "Name", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.username, "Username", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "form-control",id="username" } })
                 @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
             </div>
+           
         </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.userpassword, "Password", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.userpassword, new { htmlAttributes = new { @class = "form-control" ,Type="password"} })
+                @Html.EditorFor(model => model.userpassword, new { htmlAttributes = new { @class = "form-control" ,Type="password",@id="pass" } })
                 @Html.ValidationMessageFor(model => model.userpassword, "", new { @class = "text-danger" })
+               
             </div>
         </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.contact, "Contact", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.contact, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.contact, new { htmlAttributes = new { @class = "form-control" , @id = "mobile" } })
                 @Html.ValidationMessageFor(model => model.contact, "", new { @class = "text-danger" })
+               
             </div>
+            
         </div>
+       
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
@@ -50,5 +55,7 @@
         </div>
     </div>
     </form>
-
+<p style="font-size:medium">
+    @Html.ActionLink("Login", "Index")
+</p>
 

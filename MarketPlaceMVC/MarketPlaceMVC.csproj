@@ -192,9 +192,6 @@
     <Content Include="Views\Home\SignUP.cshtml" />
     <Content Include="Views\Home\CategoryIndex.cshtml" />
     <Content Include="Views\Home\UserExists.cshtml" />
-    <None Include="Properties\PublishProfiles\MarketPlaceMVC20171209112412 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\mymarketplace - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\mymarketplace - Web Deploy.pubxml" />
     <Content Include="Views\Home\AddToCart.cshtml" />
     <Content Include="Views\Home\Mycart.cshtml" />
     <Content Include="Views\Home\AddToCart2.cshtml" />
@@ -203,6 +200,9 @@
     <Content Include="Views\Home\EditItem.cshtml" />
     <Content Include="Views\Home\trial.cshtml" />
     <Content Include="Views\Home\MyCart2.cshtml" />
+    <None Include="Properties\PublishProfiles\marketplaceproject - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\marketplaceproject - Web Deploy.pubxml" />
+    <Content Include="Views\Home\ErrorSignUp.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

@@ -17,16 +17,14 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.catid)
+            @Html.DisplayName("Category ID")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.name)
+            @Html.DisplayName("Category")
         </th>
+        
         <th>
-            @Html.DisplayNameFor(model => model.addedby)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.status)
+            @Html.DisplayName("Status")
         </th>
         <th></th>
     </tr>
@@ -40,9 +38,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.name)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.addedby)
-            </td>
+          
             <td>
                 @Html.DisplayFor(modelItem => item.status)
             </td>
